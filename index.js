@@ -7,11 +7,11 @@ app.listen(process.env.PORT || 3000, () => console.log('Web server running for U
 
 // ================== BEDROCK BOT PART ==================
 const client = createClient({
-  host: 'YOURSERVER.aternos.me',   // ← CHANGE THIS
-  port: 19132,
+  host: 'Peacefulseed.aternos.me',   // ← CHANGE THIS
+  port: 55157,
   username: 'AFKGobindaBot',       // ← your bot gamertag
   offline: true,                   // ← Set false only if you add full auth (harder)
-  // version: '1.21.60'            // ← match your Aternos version if needed
+  // version: '1.26.3.1'            // ← match your Aternos version if needed
 });
 
 client.on('join', () => {
